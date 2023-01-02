@@ -1,16 +1,9 @@
 <script setup>
-import BeeDescription from "./components/BeeDescription.vue";
-import Header from "./components/header.vue";
+import Home from "@/components/Home.vue";
 </script>
 
 <template>
-  <Header></Header>
-  <main>
-    <BeeDescription descripcio="Hola Abelles!" :any="2000">
-      <!-- slot sense nom. S'ubica en el template del component en l'etiqueta <slot></slot> </slot>--> Això es una prova
-      de Slot <template #capçalera> Això es la capçalera! </template>
-    </BeeDescription>
-  </main>
+  <Home></Home>
 </template>
 
 <script>
