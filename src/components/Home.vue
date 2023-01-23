@@ -9,8 +9,6 @@ import Footer from '@/components/Footer.vue';
   <Header></Header>
   <main>
     <Cards descripcio="Hola Abelles!" :any="2000">
-      <!-- slot sense nom. S'ubica en el template del component en l'etiqueta <slot></slot> </slot>--> Això es una prova
-      de Slot <template #capçalera> Això es la capçalera! </template>
     </Cards>
   </main>
   <Footer></Footer>
